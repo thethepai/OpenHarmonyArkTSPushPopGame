@@ -13,4 +13,4 @@
 * high score
 * random new game
 * quit confirm
-* about page
+* welcome and about page
