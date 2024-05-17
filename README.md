@@ -94,7 +94,7 @@ dialogController: CustomDialogController = new CustomDialogController({
   }
 ```
 
-### page switch and router
+### pages switch and router
 
 refer to HarmonyOS Developer pages:
 
