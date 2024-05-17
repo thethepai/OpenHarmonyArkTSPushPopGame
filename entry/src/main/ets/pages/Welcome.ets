@@ -1,5 +1,5 @@
 import router from '@ohos.router';
-import app from '@system.app'
+import common from '@ohos.app.ability.common';
 
 @Entry
 @Component
@@ -13,13 +13,22 @@ struct Welcome {
     alignment: DialogAlignment.Default, // 可设置dialog的对齐方式，设定显示在底部或中间等，默认为底部显示
   })
 
+  private context = getContext(this) as common.UIAbilityContext;
+
   onCancel() {
     console.info('Callback when the first button is clicked')
   }
 
   onAccept() {
     console.info('Quit App')
-    app.terminate()
+    this.context.terminateSelf()
+  }
+
+  onBackPress() {
+    console.info('onBackPress')
+    this.dialogController.open()
+    // 必须要return true
+    return true
   }
 
   build() {
