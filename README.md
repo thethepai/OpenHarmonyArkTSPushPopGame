@@ -23,6 +23,8 @@
 
 ## details
 
+check exp constructions in `~picturebed\otherResources`
+
 ### add reverse and new game button
 
 use gameList's reverse function
