@@ -6,7 +6,7 @@ PersistentStorage.PersistProp('highScore', 0);
 struct Index {
   @State gameList: number[] = [1, 2, 3]
   @State gameGoal: number[] = [2, 2]
-  @StorageLink('highScore') highScore: number = 0
+  @StorageLink('highScore') highScore: number = AppStorage.Get('highScore')
 
   isWin() {
     return this.gameGoal.toString() == this.gameList.toString()
@@ -67,7 +67,7 @@ struct Index {
               .onClick(
                 () => {
                   // high score:
-                  this.highScore += 1
+                  this.highScore ++
 
                   for (let count = 0; count < 12; count++) {
                     this.gameGoal.pop()
@@ -91,7 +91,8 @@ struct Index {
           }
         }
         Row() {
-          Text('highScore: '+`${this.highScore}`)
+          Text('highScore: ')
+          Text(`${this.highScore}`)
         }
         .margin({
           top: 10
