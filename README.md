@@ -98,5 +98,5 @@ dialogController: CustomDialogController = new CustomDialogController({
 
 refer to HarmonyOS Developer pages:
 
-https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/start-with-ets-stage-0000001477980905-V2
+[构建第一个ArkTS应用](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/start-with-ets-stage-0000001477980905-V2)
 
