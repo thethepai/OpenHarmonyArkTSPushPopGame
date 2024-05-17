@@ -2,7 +2,7 @@
 
 鸿蒙移动应用技术实验
 
-special thanks to: @quyunfei
+special thanks to: @weilaibudengdai
 
 ## brief view
 
