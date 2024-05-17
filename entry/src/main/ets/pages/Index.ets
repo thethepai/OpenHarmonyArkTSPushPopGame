@@ -69,11 +69,11 @@ struct Index {
                   // high score:
                   this.highScore += 1
 
-                  for (let count = 0; count < 10; count++) {
+                  for (let count = 0; count < 12; count++) {
                     this.gameGoal.pop()
                   }
                   do {
-                    for (let count = 0; count < 10; count++) {
+                    for (let count = 0; count < 14; count++) {
                       let test = Math.random()
                       if (test < 0.35) {
                         this.gameGoal.push(this.gameGoal.length + 1)
