@@ -2,6 +2,8 @@
 
 鸿蒙移动应用技术实验
 
+special thanks to: @quyunfei
+
 ## brief view
 
 ![alt text](<~picture bed/README.assets/image.png>)
