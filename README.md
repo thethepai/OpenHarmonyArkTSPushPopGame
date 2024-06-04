@@ -25,7 +25,7 @@ special thanks to: @weilaibudengdai
 
 ## details
 
-check exp constructions in `~picturebed\otherResources`
+check exp constructions in `~picturebed\otherResources`, `~assets`
 
 ### add reverse and new game button
 
